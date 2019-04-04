@@ -8,6 +8,7 @@ from api.models import *
 from django_filters import rest_framework as filters
 from .filters import ClasseFilter
 from django.views.decorators.csrf import csrf_exempt
+from rest_framework.permissions import AllowAny
 
 
 class ClasseViewSet(viewsets.ModelViewSet):
@@ -57,6 +58,7 @@ class ClasseViewSet(viewsets.ModelViewSet):
 
 
 class ClasseListView(generics.ListAPIView):
+    permission_classes = (AllowAny,)
     queryset = Classe.objects.all()
     serializer_class = ClasseSerializer
     paginate_by = 100
