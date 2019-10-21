@@ -9,7 +9,7 @@ django-phonenumber-field==2.1.0
 django-twilio==0.9.3
 django-user-agents-last==0.3.1
 django-uuidfield==0.5.0
-djangorestframework==3.9.0
+djangorestframework==3.9.1
 djangorestframework-jwt==1.11.0
 fcm-django==0.2.21
 idna==2.8
