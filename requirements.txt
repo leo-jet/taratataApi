@@ -15,7 +15,7 @@ fcm-django==0.2.21
 idna==2.8
 Pillow==5.4.0
 pyfcm==1.4.5
-PyJWT==1.7.1
+PyJWT==2.4.0
 PySocks==1.6.8
 pytz==2018.7
 PyYAML==5.1
